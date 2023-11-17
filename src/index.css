@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #242424;
+  background-color: #3f3f3f;
 }
 
 button {
@@ -21,12 +21,13 @@ button {
   background-color: transparent;
   color: #1a8ed1;
   border: 1px solid #1a8ed1;
+  transition: all .3s ease-in-out;
 }
 
 button:hover,
 button:active {
-  background-color: #1ac5d1;
-  border-color: #1ac5d1;
+  background-color: #4a90e2;
+  border-color: #4a90e2;
   color: white;
 }
 

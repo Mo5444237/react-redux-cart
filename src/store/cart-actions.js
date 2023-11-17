@@ -1,12 +1,15 @@
 import { uiActions } from "./ui-slice";
 import { cartActions } from "./cart-slice";
 
-// Thunk functionS
 
+const CART_FIREBASE_URL = import.meta.env.VITE_CART_FIREBASE_URL;
+
+
+// Thunk functions
 export const fetchCartData = () => {
   return async (dispatch) => {
     const fetchData = async () => {
-      const response = await fetch(process.env.CART_FIREBASE_URL);
+      const response = await fetch(CART_FIREBASE_URL);
 
       if (!response.ok) {
         throw new Error("Could not fetch data");
@@ -46,7 +49,7 @@ export const sendCartData = (cart) => {
       })
     );
     const sendRequest = async () => {
-      const response = await fetch(process.env.CART_FIREBASE_URL, {
+      const response = await fetch(CART_FIREBASE_URL , {
         method: "PUT",
         body: JSON.stringify({
           cartItems: cart.cartItems,
