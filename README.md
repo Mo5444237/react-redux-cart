@@ -16,12 +16,12 @@ This project is a React application created with **Vite**, featuring **React Red
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/your-react-redux-cart-project.git
+   git clone https://github.com/Mo5444237/react-redux-cart.git
    ```
    
 2. **Go to the project directory:**
     ```sh
-    cd my-project
+    cd react-redux-cart
     ```
     
 3. **Install dependencies**
