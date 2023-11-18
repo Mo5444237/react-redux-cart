@@ -7,7 +7,7 @@ This project is a React application created with **Vite**, featuring **React Red
 ## Table of Contents
 
 - [Installation](#installation)
-- [Environment Varibles](environment-varibles)
+- [Environment Varibles](#environment-varibles)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Features](#features)
